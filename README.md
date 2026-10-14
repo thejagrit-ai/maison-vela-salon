@@ -2,6 +2,8 @@
 
 Maison Vela is a premium beauty atelier website for hair, skin, and makeup services. It combines an editorial visual style with a responsive experience, smooth motion, and a complete client-side appointment flow.
 
+**Live website:** [maison-vela-atelier.vercel.app](https://maison-vela-atelier.vercel.app)
+
 ## Features
 
 - Responsive pages for the home, services, artists, gallery, about, contact, and booking experiences
@@ -70,6 +72,8 @@ public/images/          Local editorial images
 The booking experience is currently client-side. Confirmed appointments are stored in the visitor's browser and are not sent to a server or shared with a salon team. A production deployment should connect the form to a secure backend, database, and notification service before accepting real appointments.
 
 ## Deployment
+
+The production website is deployed on Vercel at [maison-vela-atelier.vercel.app](https://maison-vela-atelier.vercel.app).
 
 Build the project before deploying:
 

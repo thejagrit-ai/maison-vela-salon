@@ -10,7 +10,7 @@ const display = Cormorant_Garamond({ subsets: ['latin'], weight: ['500', '600'],
 const sans = Manrope({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--font-sans', display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://example.com'),
+  metadataBase: new URL('https://maison-vela-atelier.vercel.app'),
   title: { default: `${siteConfig.name} — ${siteConfig.tagline}`, template: `%s — ${siteConfig.name}` },
   description: siteConfig.description,
   keywords: ['luxury beauty salon', 'modern hair atelier', 'skin rituals', 'bridal makeup'],
